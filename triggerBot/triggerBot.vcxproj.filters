@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{6d9ae3c4-b048-409d-8921-537cde4b3c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{139da6cc-95e5-4573-b59a-4308d0cb74cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs">
+      <UniqueIdentifier>{182f4089-d076-4ebd-aafd-f199afb16e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\ent">
+      <UniqueIdentifier>{873cfe93-7e50-4268-a10f-67e536c7101d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\trigger">
+      <UniqueIdentifier>{d513a93a-5459-4c1b-8e71-b003cd31c84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\rba">
+      <UniqueIdentifier>{12df1075-911f-4d79-b6f3-220414b9d73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\lba">
+      <UniqueIdentifier>{2f5a4f0a-2999-45b5-ba13-2e0173f35940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\jump">
+      <UniqueIdentifier>{5bca7c65-97f1-4389-8ad6-ce6b64893db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\aim">
+      <UniqueIdentifier>{8dbbf77a-68ed-460d-bce2-8934b96a3cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{2baf0160-e479-471f-b728-166579382266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook\my">
+      <UniqueIdentifier>{92f920c5-d79b-4c58-8c51-c53ac4f777e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook\forDraw">
+      <UniqueIdentifier>{694343f7-5965-4ce1-add5-d79d2a43e5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx">
+      <UniqueIdentifier>{95edcbea-3dd6-4601-a7bc-5dead0c32ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="draw">
+      <UniqueIdentifier>{3b49e581-3555-4718-ad03-aee86a319a96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="ent.h">
+      <Filter>cs\ent</Filter>
+    </ClInclude>
+    <ClInclude Include="triger.h">
+      <Filter>cs\trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="rba.h">
+      <Filter>cs\rba</Filter>
+    </ClInclude>
+    <ClInclude Include="lba.h">
+      <Filter>cs\lba</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>cs\jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.h">
+      <Filter>cs\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="csgotrace.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="csgoVector.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>hook\my</Filter>
+    </ClInclude>
+    <ClInclude Include="drawHook.h">
+      <Filter>hook\forDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>draw</Filter>
+    </ClInclude>
+    <ClInclude Include="dx.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="ent.cpp">
+      <Filter>cs\ent</Filter>
+    </ClCompile>
+    <ClCompile Include="triger.cpp">
+      <Filter>cs\trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>cs\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>hook\my</Filter>
+    </ClCompile>
+    <ClCompile Include="drawHook.cpp">
+      <Filter>hook\forDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>draw</Filter>
+    </ClCompile>
+    <ClCompile Include="dx.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
