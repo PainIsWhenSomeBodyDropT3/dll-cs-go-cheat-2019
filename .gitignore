@@ -1,1 +1,5 @@
 .vs/
+Debug/
+*.r
+*.vcxproj
+trigerBot/Debug/
